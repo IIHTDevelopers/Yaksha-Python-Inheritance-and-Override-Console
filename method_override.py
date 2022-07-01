@@ -8,4 +8,5 @@ class Sub(Super):
 
 if __name__=="__main__":
     sb=Sub()
+    x,y =[int(n) for n in input("Enter 2 integers").split()]
     print(sb.calculate(x,y))
